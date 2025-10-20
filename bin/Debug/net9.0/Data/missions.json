@@ -1,0 +1,23 @@
+{
+  "Objectives": [
+    "Contrôler 3 points stratégiques pendant 2 tours",
+    "Détruire l'unité la plus chère de l'adversaire",
+    "Tenir la zone centrale jusqu'à la fin de la partie"
+  ],
+  "Terrains": [
+    "Ruines urbaines",
+    "Désert toxique",
+    "Zone industrielle",
+    "Cité-ruche en flammes"
+  ],
+  "Conditions": [
+    "Tempête Warp — Tirs à longue portée impossibles",
+    "Brouillard toxique — Les lignes de vue sont réduites de moitié",
+    "Bombardement orbital aléatoire chaque début de tour"
+  ],
+  "Factions": [
+    { "Name": "Space Marines", "Rule": "Doctrine Tactique — tir amélioré au tour 2" },
+    { "Name": "Orks", "Rule": "WAAAGH! — un bonus de charge une fois par bataille" },
+    { "Name": "Tyranids", "Rule": "Synapse — unités à 6ps ne peuvent pas fuir"}
+  ]
+}
