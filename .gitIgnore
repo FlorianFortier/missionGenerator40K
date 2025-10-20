@@ -1,0 +1,56 @@
+﻿# Visual Studio / IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# .NET Core / .NET
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.class
+*.app
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Mac / Linux
+.DS_Store
+Thumbs.db
+
+# JSON secrets / settings
+appsettings*.Local.json
+*.secret.json
+
+# PDFs générés (optionnel, si tu ne veux pas les committer)
+*.pdf
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+
+# QuestPDF (si cache local)
+*.cache
+
+# Coverage / test results
+coverage/
+TestResults/
+*.trx
+
+# Dotnet tool / global packages
+.dotnet/
